@@ -12,4 +12,4 @@ cp -R ./public/index.html ./dist
 echo "Done, Moving index.html"
 cp -R ./public/css ./dist/css
 echo "Done, Moving CSS"
-cp -R ./public/images ./dist/assets
+cp -R ./public/images ./dist/
