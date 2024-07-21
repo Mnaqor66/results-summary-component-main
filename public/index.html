@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/output.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+
+<body>
+  <div class="background bg-White xl:container mx-auto h-screen flex justify-center items-center font-HankenGrotesk">
+    <div class="content w-full lg:w-5/12  h-fit bg-White grid grid-cols-1 sm:grid-cols-2 rounded-3xl shadow-xl">
+
+      <div
+        class="py-7 px-7 bg-gradient-to-b from-LightSlateBlue-background to-LightRoyalBlue-background rounded-b-3xl lg:rounded-3xl flex flex-col justify-center items-center">
+        <h1 class="text-center font-bold mb-6 text-LightLavender text-xl">
+          Your Result
+        </h1>
+        <div
+          class="w-48 h-48 mb-6 rounded-full bg-gradient-to-b from-VioletBlue-circle to-PersianBlue-circle flex flex-col justify-center items-center">
+          <h1 class="text-White text-7xl font-semibold">76</h1>
+          <p class="text-LightLavender">of 100</p>
+        </div>
+        <h1 class="text-White text-2xl font-semibold mb-3">Great</h1>
+        <p class="text-center text-md px-4 text-LightLavender">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="py-7 px-7 bg-White rounded-3xl">
+        <h1 class="text-DarkGrayBlue font-bold text-xl mb-6">Summary</h1>
+
+        <div class="bg-LightRed-bg flex justify-between items-center p-3 rounded-lg mb-3">
+          <div class="flex items-center">
+            <img src="../assets/images/icon-reaction.svg" alt="reaction-icon" />
+            <h1 class="text-LightRed ml-2 font-semibold">Reaction</h1>
+          </div>
+          <div class="flex items-center">
+            <p class="text-DarkGrayBlue font-bold">80</p>
+            <p class="text-Gray font-bold ml-2">/ 100</p>
+          </div>
+        </div>
+
+        <div class="bg-OrangeYellow-bg flex justify-between items-center p-3 rounded-lg mb-3">
+          <div class="flex items-center">
+            <img src="../assets/images/icon-memory.svg" alt="reaction-icon" />
+            <h1 class="text-OrangeYellow ml-2 font-semibold">Memory</h1>
+          </div>
+          <div class="flex items-center">
+            <p class="text-DarkGrayBlue font-bold">92</p>
+            <p class="text-Gray font-bold ml-2">/ 100</p>
+          </div>
+        </div>
+
+        <div class="bg-GreenTeal-bg flex justify-between items-center p-3 rounded-lg mb-3">
+          <div class="flex items-center">
+            <img src="../assets/images/icon-verbal.svg" alt="reaction-icon" />
+            <h1 class="text-GreenTeal ml-2 font-semibold">Verbal</h1>
+          </div>
+          <div class="flex items-center">
+            <p class="text-DarkGrayBlue font-bold">61</p>
+            <p class="text-Gray font-bold ml-2">/ 100</p>
+          </div>
+        </div>
+
+        <div class="bg-CobaltBlue-bg flex justify-between items-center p-3 rounded-lg mb-3 lg:mb-14">
+          <div class="flex items-center">
+            <img src="../assets/images/icon-visual.svg" alt="reaction-icon" />
+            <h1 class="text-CobaltBlue ml-2 font-semibold">Visual</h1>
+          </div>
+          <div class="flex items-center">
+            <p class="text-DarkGrayBlue font-bold">72</p>
+            <p class="text-Gray font-bold ml-2">/ 100</p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-DarkGrayBlue text-White text-center font-bold rounded-full">
+          Continue
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
